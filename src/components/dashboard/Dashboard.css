@@ -1,0 +1,82 @@
+.dashBoardMainContainer{
+    background-color: #F5F9FC;
+    width:auto;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.dashBoardContainer{
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.linkButton{
+    height:100%;
+    width:100%;
+    border-width: 0;
+    color: #00456B;
+    font-family: 'ubuntu';
+    font-size: 18;
+    background-color: #F5F9FC;
+    cursor: pointer;
+}
+
+.linkButtonClicked{
+    background-color: #12ABDB;
+    color: #F2FAFF;
+    border-radius: 8px;
+    height:100%;
+    width:100%;
+    border-width: 0;
+    font-family: 'ubuntu';
+    font-size: 18;
+    cursor: pointer;
+}
+
+.dashBoardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: #00456B;
+    font-family: 'ubuntu';
+    text-align: center;
+    margin: 10px;
+}
+
+.skillText{
+    color: #00456B;
+    font-family: 'ubuntu';
+}
+
+.addSkillContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.addSkillInput{
+    height: 40px;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-left: 3%;
+    font-family: 'ubuntu';
+    color: #003654;
+    width: 95%;
+    margin-bottom: 2%;
+}
+
+.addSkillButton{
+    padding: 0 !important;
+}
+
+.imageMarginHome{
+    margin: 20px;
+}

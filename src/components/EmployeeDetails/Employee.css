@@ -1,0 +1,296 @@
+.addEmployeeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F5F9FC;
+    margin-left:1%;
+    margin-right: 1%;
+    max-height: max-content;
+    padding: 2%;
+    width:auto;
+    border-radius: 8px;
+}
+
+.formContainer{
+    width: 50%;
+}
+
+.addItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+label{
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 1%;
+    color: #003654;
+    font-family: 'ubuntu';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.inputAdd{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-left: 3%;
+    font-family: 'ubuntu';
+    color: #003654;
+}
+
+.inputAdd::placeholder{
+    color: #C5D5DC;
+}
+.error{
+    color: red;
+}
+
+.sucess{
+    color: green;
+}
+.submitButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 2%;
+    margin-right: 1%;
+}
+
+.submitButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border-width: 0;
+    background-color: #0070AD;
+    color: #FFFFFF;
+    font-family: 'ubuntu';
+}
+
+.submitButton:hover{
+    cursor: pointer;
+}
+
+.clearAllButton{
+    background-color: #FFFFFF;
+    color: #0070AD;
+    text-decoration: underline;
+    border-width: 0;
+    font-weight: 500;
+    font-family: 'ubuntu';
+}
+
+/* View Details */
+
+.tableContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    /* Add any other styling you need */
+  }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-family: ubuntu;
+}
+
+thead{
+    background-color: #E3ECF0;
+    height: 50px;
+}
+
+tbody{
+    background-color: #F5F9FC
+}
+
+th{
+    color: #00456B;
+}
+
+td{
+    overflow-wrap: break-word;
+    text-align:center;
+    color: #002439;
+}
+
+.tdOnLock{
+    color: #8496a0;
+}
+
+.tdEmail{
+    max-width: 70px;
+}
+
+.actionsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.actionsButtonContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.actionsButton{
+    color: #FFFFFF;
+    background-color: #0070AD;
+    border-width: 0;
+    width: auto;
+    height: 30px;
+    margin: 2px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.actionsButton:hover{
+    cursor: pointer;
+}
+.actionsButton:disabled{
+    background-color: #92c8e5 !important;
+    cursor: auto;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 2px solid #E3ECF0;
+}
+
+.thLockDisplay{
+    display: flex;
+    flex-direction: row;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #00456B;
+    font-family: ubuntu;
+    text-align: center;
+  }
+  
+  .popup p {
+    margin-top: 0;
+    color: #003654;
+    font-family: ubuntu;
+  }
+  
+  .popUpYesbutton {
+    height:40px;
+    width:100px;
+    margin: 10px;
+    color: white;
+    background-color: #0070AD;
+    border-width: 0;
+    border-radius: 5px;
+    font-family: ubuntu;
+  }
+
+  .popUpNobutton {
+    height:40px;
+    width:100px;
+    color: #0070AD;
+    background-color: whitw;
+    border-width: 1;
+    border-color: #0070AD;
+    border-radius: 5px;
+    font-family: ubuntu;
+  }
+
+  .editContainer{
+    width: 30%;
+    height: 90%;
+    padding: 1%;
+    overflow-y: auto;
+  }
+
+  .editHeadingContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+  .marginTop{
+    margin-top: 10%;
+  }
+
+  .closeButton{
+    background-color: white !important;
+    border-width: 0 !important;
+    /*position: fixed;
+    top: 20px; Adjust the top position as needed 
+    right: 20px; Adjust the right position as needed */
+  }
+  .closeButton:hover{
+    cursor: pointer;
+  }
+  .editHeadingText{
+    font-family: ubuntu;
+    font-size:20px;
+    color: #00456B;
+  }
+
+  .editBGColor{
+    background-color: #F5F9FC;
+    width: 80% !important;
+  }
+  
+  .cancelButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color: #0070AD;
+    background-color: #FFFFFF;
+    font-family: 'ubuntu';
+    border: 2px solid #0070AD;
+    margin-right: 10px;
+}
+
+.editPopUpContent{
+    text-align:start !important;
+}
+
+.editItems{
+    margin:10px;
+}
+
+.cancelButton:hover{
+    cursor: pointer;
+}
+
+/* image styles*/
+
+.marginRight{
+    margin-right: 3px;
+}

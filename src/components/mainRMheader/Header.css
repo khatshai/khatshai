@@ -1,0 +1,35 @@
+.mainContainer{
+    background-color: #002439;
+    width:auto;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'ubuntu';
+}
+
+.resouceContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.resourceHeading{
+    font-size: 25px;
+    color: #F2FAFF;
+}
+
+.userName{
+    font-size: 18px;
+    color: #F2FAFF;
+}
+
+.imageMargin{
+    margin: 20px;
+}
+
+.profileImageMargin{
+    margin-right:40px;
+     margin-left: 15px;
+}
