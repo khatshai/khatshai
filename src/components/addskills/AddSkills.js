@@ -4,7 +4,7 @@ import { postSkills } from "../../services/RMPortalServices";
 function AddSkills() {
   const [skill, setSkills] = useState("");
 
-  const [sucessMsg, setSucessMsg] = useState(null);
+  const [sucessMsgs, setSucessMsg] = useState(null);
   const [error, setError] = useState(null);
 
   const onSkillsChange = (e) => {
@@ -27,7 +27,7 @@ function AddSkills() {
   return (
     <div className="addEmployeeContainer">
       <div className="formContainer">
-        <p className="sucess">{sucessMsg}</p>
+        <p className="sucess">{sucessMsgs}</p>
         <p className="error">{error}</p>
         <h2 className="skillText">Add a new Skill</h2>
         <p className="skillText">
